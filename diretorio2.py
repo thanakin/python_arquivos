@@ -2,16 +2,16 @@
 import os
 
 #renomeia a pasta "nova_pasta" para "nova_pasta2"
-    #os.rename("nova_pasta", "nova_pasta2")
+os.rename("nova_pasta", "nova_pasta2")
 
 #remove a "pasta nova_pasta2", se estiver vazia
-    #os.rmdir("nova_pasta2")
+os.rmdir("nova_pasta2")
 
 #remove arquivos "exemplo.txt"
-    #os.remove("exemplo.txt")
+os.remove("exemplo.txt")
 
 #retorna para pasta anterior
-    #os.chdir("..")
+os.chdir("..")
 
 print(os.getcwd())
 '''
