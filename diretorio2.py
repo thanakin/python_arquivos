@@ -19,7 +19,7 @@ print(os.getcwd())
 for arquivooupasta in os.listdir("."):
     print(arquivooupasta)
 '''
-
+#laço com condição para identificação de pastas x arquivos
 for arquivooupasta in os.listdir("."):
     if os.path.isdir(arquivooupasta):
         print("Diretorio.:", arquivooupasta)
