@@ -1,3 +1,4 @@
+# !/usr/bin/python3
 import os
 #exibe caminho até o diretorio atual
 print(os.getcwd())
